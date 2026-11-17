@@ -1,34 +1,48 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVzIiBkYXRhLXRoZW1lPSJk
-YXJrIj4KICA8aGVhZD4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04IiAvPgog
-ICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmlj
-ZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiIC8+CiAgICA8dGl0bGU+RWxl
-Y3Ryb25pY3MgTGFiIOKAlCBTdHVkaW8gKE9mZmxpbmUtRmlyc3QpPC90aXRs
-ZT4KICAgIDxzdHlsZT4KICAgICAgaHRtbCwgYm9keSB7CiAgICAgICAgbWFy
-Z2luOiAwOwogICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgd2lkdGg6IDEw
-MCU7CiAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIGJhY2tncm91bmQ6
-ICMwZDExMTY7CiAgICAgICAgY29sb3I6ICNlOGVjZjA7CiAgICAgICAgZm9u
-dC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwg
-J1NlZ29lIFVJJywgUm9ib3RvLCBzYW5zLXNlcmlmOwogICAgICB9CiAgICAg
-IC5lbGFiLWJvb3QgewogICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAg
-ZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgICAgICBhbGlnbi1pdGVtczog
-Y2VudGVyOwogICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAg
-ICAgIGhlaWdodDogMTAwdmg7CiAgICAgICAgZ2FwOiAxMnB4OwogICAgICAg
-IGJhY2tncm91bmQ6ICMwZDExMTY7CiAgICAgICAgY29sb3I6ICNjOWQxZDk7
-CiAgICAgIH0KICAgICAgLmVsYWItYm9vdC1kb3QgewogICAgICAgIHdpZHRo
-OiAxNHB4OwogICAgICAgIGhlaWdodDogMTRweDsKICAgICAgICBib3JkZXIt
-cmFkaXVzOiA0cHg7CiAgICAgICAgYmFja2dyb3VuZDogI2YyYTMzYTsKICAg
-ICAgICBib3gtc2hhZG93OiAwIDAgMTZweCByZ2JhKDI0MiwgMTYzLCA1OCwg
-MC43KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxzY3JpcHQgdHlwZT0i
-bW9kdWxlIiBjcm9zc29yaWdpbiBzcmM9Ii9hc3NldHMvaW5kZXgtQ3I2SmY3
-T0MuanMiPjwvc2NyaXB0PgogICAgPGxpbmsgcmVsPSJtb2R1bGVwcmVsb2Fk
-IiBjcm9zc29yaWdpbiBocmVmPSIvYXNzZXRzL2F2ci1ET011Mnh0My5qcyI+
-CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGNyb3Nzb3JpZ2luIGhyZWY9
-Ii9hc3NldHMvaW5kZXgtQkxHUjF2aWQuY3NzIj4KICA8L2hlYWQ+CiAgPGJv
-ZHk+CiAgICA8ZGl2IGlkPSJyb290Ij4KICAgICAgPGRpdiBjbGFzcz0iZWxh
-Yi1ib290Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJlbGFiLWJvb3QtZG90Ij48
-L2Rpdj4KICAgICAgICA8ZGl2IHN0eWxlPSJmb250LXdlaWdodDogNzAwOyBm
-b250LXNpemU6IDE1cHg7Ij5FbGVjdHJvbmljcyBMYWIg4oCUIFN0dWRpbzwv
-ZGl2PgogICAgICAgIDxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgY29s
-b3I6ICM4ZTliYTg7Ij5JbmljaWFsaXphbmRvIGdyYWZvIHVuaWZpY2Fkbywg
-c29sdmVyIE1OQSB5IGVtdWxhZG9yIEFWUjjigKY8L2Rpdj4KICAgICAgPC9k
-aXY+CiAgICA8L2Rpdj4KICA8L2JvZHk+CjwvaHRtbD4K
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics Lab — Studio (Offline-First)</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #0d1116;
+        color: #e8ecf0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      .elab-boot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 12px;
+        background: #0d1116;
+        color: #c9d1d9;
+      }
+      .elab-boot-dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 4px;
+        background: #f2a33a;
+        box-shadow: 0 0 16px rgba(242, 163, 58, 0.7);
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-Cr6Jf7OC.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/avr-DOMu2xt3.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BLGR1vid.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="elab-boot">
+        <div class="elab-boot-dot"></div>
+        <div style="font-weight: 700; font-size: 15px;">Electronics Lab — Studio</div>
+        <div style="font-size: 12px; color: #8e9ba8;">Inicializando grafo unificado, solver MNA y emulador AVR8…</div>
+      </div>
+    </div>
+  </body>
+</html>
